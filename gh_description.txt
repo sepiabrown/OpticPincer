@@ -1,0 +1,11 @@
+# GitHub "About" field (max 350 chars)
+
+Native desktop GUI automation for LLM agents. Gives AI coding assistants eyes (screenshots) and hands (clicks) on native apps -- egui, Qt, GLFW, winit. Widget-aware clicking via exported UI trees. Win32 input injection with three-strategy fallback. Process lifecycle management.
+
+# GitHub Topics
+
+gui-automation desktop-automation llm-agent native-gui egui winit win32 screenshot click-automation ui-testing developer-tools
+
+# Social preview text
+
+OpticPincer gives LLM coding agents (AI coding assistants) the ability to see and interact with native desktop GUI applications. Instead of guessing pixel coordinates, it reads an exported UI widget tree and clicks elements by name. Built for developers who need automated GUI design verification and debugging without leaving their AI workflow.

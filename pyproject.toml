@@ -1,0 +1,25 @@
+[build-system]
+requires = ["hatchling"]
+build-backend = "hatchling.build"
+
+[project]
+name = "opticpincer"
+version = "0.1.0"
+description = "Native desktop GUI automation for LLM agents - screenshot, click, and verify"
+requires-python = ">=3.11"
+license = "MIT"
+dependencies = [
+    "pyautogui",
+    "Pillow",
+]
+
+[project.scripts]
+opticpincer = "opticpincer.cli:main"
+
+[tool.hatch.build.targets.wheel]
+packages = ["src/opticpincer"]
+
+[dependency-groups]
+dev = [
+    "pytest>=9.0.2",
+]
